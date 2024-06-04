@@ -519,7 +519,7 @@ switch (userInput) {
     break;
 }
 
-
+*/
 
 console.group('task 7');
 console.log('task 7');
@@ -528,7 +528,7 @@ const enterNum1 = prompt('введіть число:');
 const enterNum2 = prompt('введіть число:');
 const enterNum3 = prompt('введіть число:');
 
-if (enterNum1 || enterNum2 || enterNum3) {
+if (enterNum1===0 || enterNum2===0 || enterNum3===0) {
   alert('Будь ласка, введіть дійсні числа для всіх трьох сторін');
 } else {
   if (enterNum1 === enterNum2 && enterNum2 === enterNum3) {
@@ -539,7 +539,7 @@ if (enterNum1 || enterNum2 || enterNum3) {
     alert('трикутник є різносторонній');
   }
 }
-
+/*
 console.group('task 8');
 console.log('task 8');
 console.groupEnd();
